@@ -4,6 +4,7 @@
 Managing multiple git repositories is easier than ever. I often end up working on many directories and manually pulling updates, etc. To make this routine faster, I created a simple tool to handle this job. Although the focus is batch jobs, you can still do de facto micro-management of your git repositories (e.g., add/reset, stash, commit, etc.)
 
 Check out the screencast of the app:
+[![asciicast](https://asciinema.org/a/lxoZT6Z8fSliIEebWSPVIY8ct.svg)](https://asciinema.org/a/lxoZT6Z8fSliIEebWSPVIY8ct)
 
 ## Installation
 Install [latest](https://golang.org/dl/) Golang release.
@@ -24,7 +25,7 @@ brew install gitbatch
 ``` 
 
 ## Use
-Run the gitbatch command from the parent of your git repositories. For start-up options simply gitbatch --help.
+Run the `gitbatch` command from the parent of your git repositories. For start-up options simply `gitbatch --help`
 
 ## Further goals
 - improve testing
